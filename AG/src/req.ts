@@ -8,7 +8,7 @@ import getAgReq from "./agReq";
 
 const agRedir = new RedirectsService();
 
-const lib: LibReq = {
+const lib: RequestHandler = {
 	handle: async (ctx: CTXReq): Promise<Request | Response> => {
 		const agReq = getAgReq(new URL(ctx.req.url), ctx.req.destination);
 

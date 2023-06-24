@@ -1,5 +1,4 @@
-// Bing AI on all browsers
-const lib: LibReq = {
+const lib: RequestHandler = {
 	match: "https://www.bing.com",
 	handle: async ctx => {
 		if (ctx.isNavigate) {

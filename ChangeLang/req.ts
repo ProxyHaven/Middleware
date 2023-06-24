@@ -1,6 +1,6 @@
 const lang = "en";
 
-const lib: LibReq = {
+const lib: RequestHandler = {
 	handle: async ctx => {
 		ctx.req.headers["accept-language"] = lang;
 
