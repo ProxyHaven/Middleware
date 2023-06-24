@@ -1,0 +1,6 @@
+{
+	"compilerOptions": {
+		"types": ["chrome", "firefox-webext-browser"]
+	},
+	"include": ["src/api/chrome/**/*"]
+}

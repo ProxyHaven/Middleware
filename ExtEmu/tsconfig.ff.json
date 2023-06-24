@@ -1,0 +1,7 @@
+{
+	"target": "ESNext",
+	"compilerOptions": {
+		"types": ["firefox-webext-browser"]
+	},
+	"include": ["src/api/ff/**/*"]
+}

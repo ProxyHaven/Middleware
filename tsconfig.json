@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"composite": true,
+		"target": "ESNext",
+		"moduleResolution": "nodenext",
+		"allowSyntheticDefaultImports": true,
+		"baseUrl": "../",
+		"paths": {
+			"this/*": ["this/*"],
+			"shared/*": ["shared/*"],
+			"config": ["config.ts"]
+		}
+	},
+	"include": ["/**/*"]
+}
